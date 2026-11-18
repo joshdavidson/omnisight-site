@@ -1,3 +1,4 @@
-title: OmniSight for Apple TV, iPhone and iPad
+title: OmniSight
 theme: jekyll-theme-primer
-exclude: [README.md, update_privacy.sh]
+plugins: [jekyll-redirect-from]
+exclude: [README.md]

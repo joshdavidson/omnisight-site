@@ -1,8 +1,10 @@
 # omnisight-site
 
-The public support and privacy pages for OmniSight, published with GitHub Pages:
+Moved. OmniSight's support and privacy pages are now on defiantlabs.io:
 
-- https://joshdavidson.github.io/omnisight-site/support/
-- https://joshdavidson.github.io/omnisight-site/privacy/
+- https://defiantlabs.io/solutions/omnisight/support/
+- https://defiantlabs.io/solutions/omnisight/privacy/
 
-The privacy policy's source is `docs/privacy-policy.md` in the OmniSight repo. Don't edit `privacy.md` here: edit the policy there, run its `tools/sync_privacy_policy.sh`, then `./update_privacy.sh` here.
+The pages here only redirect there (jekyll-redirect-from), because installed builds of the app link to the old privacy address. Keep this repo and GitHub Pages on.
+
+The pages' source is `src/content/app-pages/omnisight/` in the `defiant/defiantlabs.io` repo; the privacy policy is synced from the OmniSight app's policy by that repo's `tools/sync-omnisight-privacy.sh`.
